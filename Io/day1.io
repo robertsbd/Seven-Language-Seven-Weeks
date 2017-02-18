@@ -1,6 +1,6 @@
 // This is test Io file
 
-// creat an object
+// create an object
 
 ObjectThatPrints := Object clone
 
