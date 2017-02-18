@@ -3,24 +3,22 @@
 
 // lets define our Fibonacci object
 Fibonacci := Object clone
-Fibonacci sequence := List clone
-Fibonacci length := Object clone // how long will the fibonnacci sequence be
-Fibonacci genSeq := method( // generate the fibonacci sequence 
+Fibonacci fib := method(nth, // generate the fibonacci sequence with a loop
+    self sequence := List clone   
     self sequence append(1)
     self sequence append(1)
-    for(i, 2, length-1,
+    for(i, 2, nth-1,
         self sequence append(self sequence at(i-1) + self sequence at(i-2))
     )
+    self sequence at(nth-1) println
 )
-Fibonacci fib := method(nth, // generate a list of the length that we wish to report
-    self sequence := List clone
-    self length = nth
-    self genSeq
-    self sequence at(self length-1) println
-)
+
+//Finonacci getSeqRec := method(nth
 
 fibSeq := Fibonacci clone
 
 fibSeq fib(10)
 fibSeq fib(4)
 fibSeq fib(7)
+
+// now do it with recursion
