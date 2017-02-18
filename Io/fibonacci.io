@@ -3,22 +3,31 @@
 
 // lets define our Fibonacci object
 Fibonacci := Object clone
-Fibonacci fib := method(nth, // generate the fibonacci sequence with a loop
-    self sequence := List clone   
-    self sequence append(1)
-    self sequence append(1)
-    for(i, 2, nth-1,
-        self sequence append(self sequence at(i-1) + self sequence at(i-2))
+Fibonacci fib := method(nth, // generate the fibonacci sequence with a loop   
+    self x1 := 1
+    self x2 := 1
+    self out := nil
+    
+    if(nth < 3, 
+        return 1, 
+        for(i, 3, nth,
+            self out = self x2 + self x1
+            self x1 = x2
+            self x2 = out
+        )
+        return out
     )
-    self sequence at(nth-1) println
 )
+Fibonacci fibr := method(n, // generate the fibonacci sequence with recursion
 
-//Finonacci getSeqRec := method(nth
+    if(n < 2,
+        return n,
+        return self fibr(n-1) + self fibr(n-2)
+    )
+)
 
 fibSeq := Fibonacci clone
 
-fibSeq fib(10)
-fibSeq fib(4)
-fibSeq fib(7)
+fibSeq fib(5) println
 
-// now do it with recursion
+fibSeq fibr(4) println
