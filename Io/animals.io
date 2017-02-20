@@ -3,8 +3,8 @@
 Object ancestors := method(
     prototype := self proto
     if(prototype != Object,
-    writeln("Slots of ", prototype type, "\n------------"
-    prototype slotNames foreach(slotNam, writeln(slotNames)
+    writeln("Slots of ", prototype type, "\n------------")
+    prototype slotNames foreach(slotNames, writeln(slotNames))
     writeln
     prototype ancestors))
 
