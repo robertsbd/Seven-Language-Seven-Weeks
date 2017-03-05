@@ -10,7 +10,7 @@ Builder forward := method(
     writeln(y, "<", call message name, ">")
     call message arguments foreach(
         arg,
-        content := self doMessage(arg); // this line appears to be calling the method recursively
+        content := self doMessage(arg); // this line is calling the method recursively
         if(content type == "Sequence",
             writeln(y, content)
         )
@@ -21,12 +21,12 @@ Builder forward := method(
 
 Builder ul(
             li(
-                ul(
+                languages(
                     li("Io"),
                     li("Lua"),
                     li("JavaScript")
                 ),
-                ul(
+                languages(
                     li("C++"),
                     li("Java"),
                     li("Scala")
