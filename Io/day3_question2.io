@@ -11,4 +11,5 @@ squareBrackets := method(
 )
 
 myList := ["hello", "world"]
-myList print
+writeln(myList)
+writeln(myList size)
