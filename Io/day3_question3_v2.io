@@ -1,37 +1,25 @@
-// this works *** Question 1
-
-OperatorTable addAssignOperator(":", "atPutNumber")
-curlyBrackets := method(
-    r := Map clone
-    call message arguments foreach(arg, 
-        r doMessage(arg)
-        )
-    r
-)
-Map atPutNumber := method(
-    self atPut(
-        call evalArgAt(0) asMutable removePrefix("\"") removeSuffix("\""),
-        call evalArgAt(1)
-    )
-)
-
-//s := Object clone
-s := {
-    "Bob Smith": "5195551212",
-    "Mary Walsh": "4162223434"
-}
-
-//s := File with("phonebook.txt") openForReading contents
-phoneNumbers := s
-//phoneNumbers := doString(s)
-phoneNumbers keys println
-phoneNumbers values println
-
-/*
+OperatorTable addAssignOperator(":", "addAttributes")
 
 Builder := Object clone
 
 Builder x := ""
+
+Map addAttributes := method(
+    self atPut(
+        call evalArgAt(0) asMutable removePrefix("\"") removeSuffix("\""), 
+        call evalArgAt(1)
+    )
+)
+
+curlyBrackets := method(
+
+    r := List clone
+
+    call message arguments foreach(arg, 
+        doString(arg asString)
+    )
+    r
+)
 
 Builder forward := method( 
 
@@ -39,7 +27,7 @@ Builder forward := method(
     x = x .. "   "
     
     writeln(y, "<", call message name, ">")
-  //  curlyBrackets print
+
     call message arguments foreach(
         arg,
         content := self doMessage(arg); // this line is calling the method recursively
@@ -56,7 +44,7 @@ Builder ul(
                 my_library(
                     book("Man without Qualities"),
                     book("The Outsider"),
-                    book({"Author": "Herman Melville"}, "Moby Dick")
+                    book({"Author":"Herman Melville"},{"Date of Pub": "1987"}, "Moby Dick")
                 ),
                 your_library(
                     book("To the Lighthouse"),
@@ -65,4 +53,3 @@ Builder ul(
                 )                
             )
         )
-*/

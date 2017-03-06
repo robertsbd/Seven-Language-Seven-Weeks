@@ -16,7 +16,7 @@ Builder forward := method(
     msg := call message name
     if(msg == "curlyBrackets", // if there is a curlyBracket then we need to get the info associated with attributes
         call message arguments foreach(arg, 
-            startTag = startTag .. arg 
+            startTag = startTag .. arg
         ),
         startTag = call message name
     )
