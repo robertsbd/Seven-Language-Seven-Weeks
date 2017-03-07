@@ -5,22 +5,23 @@ OperatorTable addAssignOperator(":", "atPutAtt")
 Builder := Object clone
 Builder x := Sequence clone
 
-// parse each attribute,called when it sees a : and then takes the args either side and returns appends the string to itself
+// parse each attribute. Called when it sees a ":" and then takes the args either side and appends the string to the list
 List atPutAtt := method(
     self append(call evalArgAt(0) asMutable removePrefix("\"") removeSuffix("\"") .. "=\"" .. call evalArgAt(1) .. "\"")
 )
 
 curlyBrackets := method(
     r := List clone
+    out_txt := Sequence clone
 
-    // go through all the arguments withing {}
+    // go through all the arguments within {}, this means we will proc atPutAtt
     call message arguments foreach(arg,
         r doString(arg asString)
     )
 
-    // write out the attributes
-    r foreach(el, write(el, ";"))
-    writeln(">")
+    // write out the attributes, remove hanging ";"
+    r foreach(el, out_txt = out_txt .. el .. ";")
+    writeln(out_txt asMutable removeSuffix(";"), ">")
 )
 
 Builder forward := method( 
