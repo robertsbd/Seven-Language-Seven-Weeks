@@ -1,30 +1,25 @@
-// This is almost working
+// Working now
 
 OperatorTable addAssignOperator(":", "atPutAtt")
 
 Builder := Object clone
 Builder x := Sequence clone
-Builder lastName := Sequence clone
 
-Map atPutAtt := method(
-    self atPut(
-        call evalArgAt(0) asMutable removePrefix("\"") removeSuffix("\""), 
-        call evalArgAt(1))
+// parse each attribute,called when it sees a : and then takes the args either side and returns appends the string to itself
+List atPutAtt := method(
+    self append(call evalArgAt(0) asMutable removePrefix("\"") removeSuffix("\"") .. "=\"" .. call evalArgAt(1) .. "\"")
 )
 
 curlyBrackets := method(
-    r := Map clone
+    r := List clone
+
+    // go through all the arguments withing {}
     call message arguments foreach(arg,
         r doString(arg asString)
     )
 
-    i := Number clone
-    i = 0
-    write("<", lastName, " ")
-    r foreach(el,
-        write(r keys at(i), "=\"", r values at(i), "\";")
-        i = i + 1
-    )
+    // write out the attributes
+    r foreach(el, write(el, ";"))
     writeln(">")
 )
 
@@ -33,13 +28,9 @@ Builder forward := method(
     y := x
     x = x .. "   "
 
-// by doinig this if statement it will cause problems with content being printed, I am pretty sure it is from the 
-// recursive calls, not putting it in an if will cause it not to print the content we need
-
-    if( call message argAt(0) asString containsSeq("curlyBrackets"),   
-        y print,
+    if( call message argAt(0) asString beginsWithSeq("curlyBrackets"),   
+        write(y, "<", call message name, " "), // only write the start {} will then be called
         writeln(y, "<", call message name, ">")
-        lastName = call message name
     )
 
     call message arguments foreach(
@@ -56,7 +47,7 @@ Builder forward := method(
 Builder ul(
             li(
                 my_library(
-                    book("Man without Qualities"),
+                    book({"Author":"Unknown"}, "Man without Qualities"),
                     book("The Outsider"),
                     book({"Author":"Herman Melville", "Name":"Ben"}, "Moby Dick")
                 ),
