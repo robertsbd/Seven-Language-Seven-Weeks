@@ -1,4 +1,4 @@
-// this will fail if you give it two different attributes - fix this
+// This is almost working
 
 OperatorTable addAssignOperator(":", "atPutAtt")
 
