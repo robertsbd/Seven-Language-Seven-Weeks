@@ -4,8 +4,7 @@ OperatorTable addAssignOperator(":", "atPutAtt")
 
 Builder := Object clone
 Builder x := Sequence clone
-Builder attributes := Map clone
-lastName := Sequence clone
+Builder lastName := Sequence clone
 
 Map atPutAtt := method(
     self atPut(
