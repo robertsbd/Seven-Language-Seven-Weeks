@@ -30,3 +30,7 @@ sort_list([H, K|T], S) :-
 sort_list([H, K|T], Min) :-
     H > K,
     sort_list([K, H|T], S).
+
+
+
+add(succ(succ(0)), succ(succ(0)), succ(succ(succ(0)))).
