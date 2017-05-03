@@ -1,5 +1,5 @@
 % Reverse a list
-
+/*
 reverseList([], []).
 reverseList([R], R).
 reverseList([H|T], R) :- reverseList(T, T1), append(T1, [H], R).
@@ -9,28 +9,31 @@ minOfTwo(Y, X, Y) :- X >= Y.
 minOfTwo(X, X, Y) :- X < Y.
 
 % Min of a list, both of these work. I am going to use minOfList
-min_in_list([Min], Min).
+min_of_list(Min,[Min]).
+min_of_list(Min, [H|T]) :- 
+    Min < H,
+    min_of_list(Min, T).
 
-min_in_list([H, K|T], Min) :- 
-    H =< K,
-    min_in_list([H|T], Min).
+uni(X, Y) :- 
+    Y = X,
+    X = 1,
+    X = 2.
 
-min_in_list([H, K|T], Min) :-
-    H > K,
-    min_in_list([K|T], Min).
+*/
 
-% Sort a list using minOfList
-sort_list([],[]).
-sort_list([S], S).
+summ([], 0).
+summ([H|T], Sum) :-
+    summ(T, Sum1),
+    Sum is Sum1 + H.
 
-sort_list([H, K|T], S) :- 
-    H =< K,
-    sort_list([H, K|T], S).
+fact(0, Fact).
+fact(X, Fact) :-
+    X is X - 1,
+    fact(X, Fact1),
+    Fact is Fact1 * H.
 
-sort_list([H, K|T], Min) :-
-    H > K,
-    sort_list([K, H|T], S).
-
-
-
-add(succ(succ(0)), succ(succ(0)), succ(succ(succ(0)))).
+interleave(X, [], Y).
+interleave([], Y, Y).
+interleave([], [], OutList).
+interleave([H1|T1], [H2|T2], [H1, H2 | OutList]) :-
+    interleave(T1, T2, OutList).
