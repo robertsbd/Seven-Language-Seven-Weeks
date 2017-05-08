@@ -1,1 +1,0 @@
-less_than(X, Y, R) :- X < Y.
