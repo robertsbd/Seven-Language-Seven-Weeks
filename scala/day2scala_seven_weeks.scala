@@ -17,10 +17,12 @@ println(Folding.getLength)
 
 /*** exercise 2, Day 2, page 153 -- Write a censor trait with a method that will replace the curse words. */
 
+// only have two definitions of censor as I don't know polymorphism
 trait CensorFuncs {
+    // Functions map through the list: if word is not in the map then use the word, else apply the map
     def censor(list_to_censor:List[String], censor_map:Map[String, String]) = list_to_censor.map(word => if(censor_map.get(word) == None) {word} else censor_map(word))
 
-    def censor_hashmap(list_to_censor:List[String], censor_map:HashMap[String, String]) = list_to_censor.map(word => if(censor_map.get(word) == None) {word} else censor_map(word)) // only doing this as I don't know polymorphism
+    def censor_hashmap(list_to_censor:List[String], censor_map:HashMap[String, String]) = list_to_censor.map(word => if(censor_map.get(word) == None) {word} else censor_map(word)) 
 }
 
 class CensorList extends CensorFuncs
