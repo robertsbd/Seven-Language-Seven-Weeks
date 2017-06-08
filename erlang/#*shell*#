@@ -1,0 +1,4639 @@
+bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor).
+{ok,doctor}
+2> D = spawn(fun doctor:loop/0)
+.
+<0.62.0>
+3> D ! new.
+Creating and monitoring process.
+new
+4> The shooter <0.64.0> died with reason {undef,[{roulette,loop,[],[]}]}.4>  Restarting. 
+4> Creating and monitoring process.
+4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.64.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4> The shooter <0.66.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.66.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.67.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.67.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.68.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.68.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.69.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.69.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.70.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.70.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.71.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.71.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.72.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.72.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.73.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.73.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.74.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.74.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.75.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.75.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.76.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.76.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.77.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.77.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.78.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.78.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.79.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.79.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.80.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.80.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.81.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.81.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.82.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.82.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.83.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4> The shooter <0.83.0> died with reason {undef,[{roulette,loop,[],[]}]}.4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.84.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.84.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.85.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.85.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.86.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.86.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.87.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.87.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.88.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.88.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.89.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.89.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.90.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.90.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.91.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.91.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.92.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.92.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.93.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4> The shooter <0.93.0> died with reason {undef,[{roulette,loop,[],[]}]}.4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.94.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.94.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.95.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.95.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.96.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.96.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.97.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.97.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.98.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.98.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.99.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.99.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.100.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.100.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.101.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.101.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.102.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.102.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.103.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.103.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.104.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.104.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.105.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.105.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.106.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.106.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.107.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.107.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.108.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.108.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.109.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.109.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.110.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.110.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.111.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.111.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.112.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.112.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.113.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.113.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.114.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.114.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.115.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.115.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.116.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.116.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.117.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.117.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.118.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.118.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.119.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.119.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.120.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.120.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.121.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.121.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.122.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.122.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.123.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.123.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.124.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.124.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.125.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.125.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.126.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.126.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.127.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.127.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.128.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.128.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.129.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.129.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.130.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.130.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.131.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.131.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.132.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.132.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.133.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.133.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.134.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.134.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.135.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.135.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.136.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.136.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.137.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.137.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.138.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.138.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.139.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.139.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.140.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.140.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.141.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.141.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.142.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.142.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.143.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.143.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.144.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.144.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.145.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.145.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.146.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.146.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.147.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.147.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.148.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.148.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.149.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.149.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.150.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.150.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.151.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.151.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.152.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.152.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.153.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.153.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.154.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.154.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.155.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.155.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.156.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.156.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.157.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.157.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.158.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.158.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.159.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.159.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.160.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.160.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.161.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.161.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.162.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.162.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.163.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.163.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.164.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.164.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.165.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.165.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.166.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.166.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4>   C-c C-cThe shooter <0.169.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.169.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.170.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4> The shooter <0.170.0> died with reason {undef,[{roulette,loop,[],[]}]}.4>  Restarting. 
+4> Creating and monitoring process.
+4> 
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+k
+
+
+Process Information
+
+--------------------------------------------------
+=proc:<0.65.0>
+State: Waiting
+Spawned as: erlang:apply/2
+Spawned by: <0.49.0>
+Started: Tue Jun  6 21:23:52 2017
+Message queue length: 0
+Number of heap fragments: 0
+Heap fragment data: 0
+Link list: [<0.49.0>, {to,<0.48.0>,#Ref<0.0.6.186>}]
+Reductions: 12
+Stack+heap: 233
+OldHeap: 0
+Heap unused: 185
+OldHeap unused: 0
+Memory: 2720
+Stack dump:
+Program counter: 0x0000000111ffaf70 (io:execute_request/2 + 288)
+CP: 0x0000000000000000 (invalid)
+arity = 0
+
+0x000000010ea92218 Return addr 0x0000000111d0d680 (shell:'-get_command/5-fun-0-'/1 + 120)
+y(0)     #Ref<0.0.6.186>
+y(1)     <0.48.0>
+y(2)     false
+
+0x000000010ea92238 Return addr 0x000000010dc6fbe8 (<terminate process normally>)
+y(0)     []
+y(1)     []
+Internal State: ACT_PRIO_NORMAL | USR_PRIO_NORMAL | PRQ_PRIO_NORMAL | ON_HEAP_MSGQ
+(k)ill (n)ext (r)eturn:
+k
+=proc:<0.62.0>
+State: Waiting
+Spawned as: erlang:apply/2
+Spawned by: <0.55.0>
+Started: Tue Jun  6 21:23:49 2017
+Message queue length: 0
+Number of heap fragments: 0
+Heap fragment data: 0
+Link list: [{to,<0.48.0>,#Ref<0.0.6.790>}]
+Reductions: 6092
+Stack+heap: 376
+OldHeap: 376
+Heap unused: 305
+OldHeap unused: 376
+Memory: 6832
+Stack dump:
+Program counter: 0x0000000111ffaf70 (io:execute_request/2 + 288)
+CP: 0x0000000000000000 (invalid)
+arity = 0
+
+0x000000010ea82dd0 Return addr 0x0000000111ff8a98 (io:o_request/3 + 80)
+y(0)     #Ref<0.0.6.790>
+y(1)     <0.48.0>
+y(2)     false
+
+0x000000010ea82df0 Return addr 0x0000000111e16e48 (doctor:loop/0 + 320)
+y(0)     []
+y(1)     []
+y(2)     format
+y(3)     {format," Restarting. ~n",[]}
+y(4)     <0.48.0>
+
+0x000000010ea82e20 Return addr 0x000000010dc6fbe8 (<terminate process normally>)
+Internal State: ACT_PRIO_NORMAL | USR_PRIO_NORMAL | PRQ_PRIO_NORMAL | TRAP_EXIT | ON_HEAP_MSGQ
+(k)ill (n)ext (r)eturn:
+k
+=proc:<0.55.0>
+State: Waiting
+Spawned as: erlang:apply/2
+Spawned by: <0.49.0>
+Started: Tue Jun  6 21:23:10 2017
+Message queue length: 0
+Number of heap fragments: 0
+Heap fragment data: 0
+Link list: [<0.49.0>]
+Reductions: 2589
+Stack+heap: 987
+OldHeap: 987
+Heap unused: 962
+OldHeap unused: 871
+Memory: 16576
+Stack dump:
+Program counter: 0x0000000111d01420 (shell:eval_loop/3 + 40)
+CP: 0x0000000000000000 (invalid)
+arity = 0
+
+0x000000010ea8c4d0 Return addr 0x000000010dc6fbe8 (<terminate process normally>)
+y(0)     []
+y(1)     []
+y(2)     []
+y(3)     8207
+y(4)     [{'D',<0.62.0>}]
+y(5)     <0.49.0>
+Internal State: ACT_PRIO_NORMAL | USR_PRIO_NORMAL | PRQ_PRIO_NORMAL | ON_HEAP_MSGQ
+(k)ill (n)ext (r)eturn:
+k
+=proc:<0.51.0>
+State: Waiting
+Name: kernel_safe_sup
+Spawned as: proc_lib:init_p/5
+Spawned by: <0.35.0>
+Started: Tue Jun  6 21:23:10 2017
+Message queue length: 0
+Number of heap fragments: 0
+Heap fragment data: 0
+Link list: [<0.35.0>]
+Dictionary: [{'$ancestors',[kernel_sup,<0.34.0>]},{'$initial_call',{supervisor,kernel,1}}]
+Reductions: 56
+Stack+heap: 233
+OldHeap: 0
+Heap unused: 74
+OldHeap unused: 0
+Memory: 2736
+Stack dump:
+Program counter: 0x000000010e6b2f20 (gen_server:loop/6 + 232)
+CP: 0x0000000000000000 (invalid)
+arity = 0
+
+0x000000010ea991c0 Return addr 0x000000010e7650a8 (proc_lib:init_p_do_apply/3 + 56)
+y(0)     []
+y(1)     infinity
+y(2)     supervisor
+y(3)     {state,{local,kernel_safe_sup},one_for_one,[],undefined,4,3600,[],0,kernel,safe}
+y(4)     kernel_safe_sup
+y(5)     <0.35.0>
+
+0x000000010ea991f8 Return addr 0x000000010dc6fbe8 (<terminate process normally>)
+y(0)     Catch 0x000000010e7650c8 (proc_lib:init_p_do_apply/3 + 88)
+Internal State: ACT_PRIO_NORMAL | USR_PRIO_NORMAL | PRQ_PRIO_NORMAL | TRAP_EXIT | ON_HEAP_MSGQ
+(k)ill (n)ext (r)eturn:
+k
+=proc:<0.50.0>
+State: Waiting
+Spawned as: proc_lib:init_p/5
+Spawned by: <0.35.0>
+Started: Tue Jun  6 21:23:10 2017
+Message queue length: 0
+Number of heap fragments: 0
+Heap fragment data: 0
+Link list: [<0.35.0>]
+Dictionary: [{'$ancestors',[kernel_sup,<0.34.0>]},{'$initial_call',{kernel_config,init,1}}]
+Reductions: 268
+Stack+heap: 233
+OldHeap: 0
+Heap unused: 164
+OldHeap unused: 0
+Memory: 2736
+Stack dump:
+Program counter: 0x000000010e6b2f20 (gen_server:loop/6 + 232)
+CP: 0x0000000000000000 (invalid)
+arity = 0
+
+0x000000010ea9a7b0 Return addr 0x000000010e7650a8 (proc_lib:init_p_do_apply/3 + 56)
+y(0)     []
+y(1)     infinity
+y(2)     kernel_config
+y(3)     []
+y(4)     <0.50.0>
+y(5)     <0.35.0>
+
+0x000000010ea9a7e8 Return addr 0x000000010dc6fbe8 (<terminate process normally>)
+y(0)     Catch 0x000000010e7650c8 (proc_lib:init_p_do_apply/3 + 88)
+Internal State: ACT_PRIO_NORMAL | USR_PRIO_NORMAL | PRQ_PRIO_NORMAL | TRAP_EXIT | ON_HEAP_MSGQ
+(k)ill (n)ext (r)eturn:
+
+The shooter <0.171.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.171.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.172.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4> The shooter <0.172.0> died with reason {undef,[{roulette,loop,[],[]}]}.4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.173.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.173.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.174.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.174.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.175.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.175.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.176.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.176.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.177.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.177.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.178.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.178.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.179.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.179.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.180.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.180.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.181.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.181.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.182.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.182.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.183.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.183.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.184.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.184.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.185.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.185.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> {"Kernel pid terminated",application_controller,"{application_terminated,kernel,shutdown}"}
+Kernel pid terminated (application_controller) ({application_terminated,kernel,shutdown})
+
+Crash dump is being written to: erl_crash.dump...done
+bash-3.2$ {undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.71.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.71.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.72.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.72.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.73.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.73.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.74.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.74.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.75.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.75.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.76.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.76.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.77.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.77.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.78.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.78.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.79.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.79.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.80.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.80.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.81.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.81.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.82.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.82.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.83.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4> The shooter <0.83.0> died with reason {undef,[{roulette,loop,[],[]}]}.4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.84.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.84.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.85.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.85.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.86.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.86.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.87.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.87.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.88.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.88.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.89.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.89.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.90.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.90.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.91.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.91.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.92.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.92.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.93.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4> The shooter <0.93.0> died with reason {undef,[{roulette,loop,[],[]}]}.4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.94.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.94.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.95.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.95.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.96.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.96.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.97.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.97.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.98.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.98.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.99.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.99.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.100.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.100.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.101.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.101.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.102.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.102.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.103.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.103.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.104.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.104.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.105.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.105.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.106.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:52 ===
+Error in process <0.106.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.107.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.107.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.108.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.108.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.109.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.109.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.110.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.110.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.111.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.111.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.112.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.112.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.113.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.113.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.114.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.114.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.115.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.115.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.116.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.116.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.117.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.117.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.118.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.118.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.119.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.119.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.120.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.120.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.121.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.121.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.122.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.122.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.123.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.123.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.124.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.124.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.125.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.125.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.126.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.126.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.127.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.127.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.128.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.128.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.129.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.129.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.130.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.130.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.131.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.131.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.132.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.132.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.133.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.133.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.134.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.134.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.135.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.135.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.136.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.136.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.137.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.137.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.138.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.138.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.139.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.139.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.140.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.140.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.141.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.141.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.142.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.142.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.143.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.143.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.144.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.144.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.145.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.145.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.146.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.146.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.147.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.147.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.148.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.148.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.149.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.149.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.150.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.150.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.151.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.151.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.152.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.152.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.153.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.153.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.154.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.154.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.155.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.155.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.156.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.156.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.157.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.157.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.158.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.158.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.159.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.159.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.160.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.160.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.161.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.161.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.162.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.162.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.163.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.163.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.164.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.164.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.165.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.165.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.166.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:23:53 ===
+Error in process <0.166.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> 
+bash: undef: command not found
+bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.71.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.72.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.73.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.74.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.75.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.76.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.77.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.78.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.79.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.80.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.81.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.82.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.83.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash: 0.83.0: No such file or directory
+bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.84.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.85.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.86.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.87.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.88.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.89.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.90.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.91.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.92.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.93.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash: 0.93.0: No such file or directory
+bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.94.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.95.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.96.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.97.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.98.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.99.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.100.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.101.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.102.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.103.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.104.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.105.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.106.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.107.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.108.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.109.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.110.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.111.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.112.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.113.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.114.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.115.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.116.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.117.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.118.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.119.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.120.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.121.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.122.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.123.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.124.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.125.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.126.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.127.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.128.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.129.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.130.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.131.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.132.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.133.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.134.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.135.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.136.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.137.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.138.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.139.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.140.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.141.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.142.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.143.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.144.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.145.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.146.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.147.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.148.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.149.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.150.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.151.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.152.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.153.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.154.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.155.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.156.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.157.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.158.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.159.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.160.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.161.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.162.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.163.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.164.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.165.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ bash: =ERROR: command not found
+bash-3.2$ bash: 0.166.0: No such file or directory
+bash-3.2$ bash: undef: command not found
+bash-3.2$ bash-3.2$ bash: and: command not found
+bash-3.2$ bash: syntax error near unexpected token `newline'
+bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor).
+{ok,doctor}
+2> Doc = spawn(fun doctor:loop/0).
+<0.62.0>
+3> Doc ! new.
+Creating and monitoring process.
+new
+4> The shooter <0.64.0> died with reason {undef,[{roulette,loop,[],[]}]}.4>  Restarting. 
+4> Creating and monitoring process.
+4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.64.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4> The shooter <0.66.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.66.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.67.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.67.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.68.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.68.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.69.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.69.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.70.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.70.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.71.0> died with reason {undef,[{roulette,loop,[],[]}]}.4>  Restarting. 
+4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.71.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4> Creating and monitoring process.
+4> The shooter <0.72.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.72.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.73.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.73.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.74.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.74.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.75.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.75.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.76.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.76.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.77.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.77.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.78.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.78.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.79.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.79.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.80.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.80.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.81.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.81.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.82.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.82.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.83.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.83.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.84.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.84.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.85.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.85.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.86.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.86.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.87.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.87.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.88.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.88.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.89.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.89.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.90.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.90.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.91.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.91.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.92.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.92.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.93.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.93.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.94.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.94.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.95.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.95.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.96.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.96.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.97.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.97.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.98.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.98.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.99.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.99.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.100.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.100.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.101.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.101.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.102.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.102.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.103.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.103.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.104.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.104.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.105.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.105.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.106.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.106.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.107.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.107.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.108.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.108.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.109.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.109.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.110.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.110.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.111.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.111.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.112.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.112.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.113.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.113.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.114.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.114.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.115.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.115.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.116.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.116.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.117.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.117.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.118.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.118.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.119.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.119.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.120.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.120.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.121.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.121.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.122.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.122.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.123.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.123.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.124.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.124.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.125.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.125.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.126.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.126.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.127.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4> The shooter <0.127.0> died with reason {undef,[{roulette,loop,[],[]}]}.4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.128.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.128.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.129.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.129.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.130.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.130.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.131.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.131.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.132.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.132.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.133.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.133.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.134.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.134.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.135.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.135.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.136.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.136.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.137.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4> The shooter <0.137.0> died with reason {undef,[{roulette,loop,[],[]}]}.4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.138.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.138.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.139.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.139.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.140.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.140.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.141.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.141.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.142.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.142.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.143.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.143.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.144.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.144.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.145.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.145.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.146.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.146.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.147.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.147.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.148.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.148.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.149.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.149.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.150.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.150.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.151.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.151.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.152.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.152.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.153.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.153.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.154.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.154.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.155.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.155.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.156.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.156.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.157.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.157.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.158.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.158.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.159.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.159.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.160.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.160.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.161.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.161.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.162.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.162.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.163.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.163.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.164.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.164.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.165.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.165.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.166.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.166.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.167.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.167.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.168.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.168.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.169.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.169.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.170.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.170.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.171.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4> The shooter <0.171.0> died with reason {undef,[{roulette,loop,[],[]}]}.4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.172.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.172.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.173.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.173.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.174.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.174.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.175.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.175.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.176.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.176.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.177.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.177.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.178.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.178.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.179.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.179.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.180.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.180.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.181.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.181.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.182.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.182.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.183.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.183.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.184.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.184.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.185.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.185.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.186.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.186.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.187.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.187.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.188.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.188.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.189.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.189.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.190.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.190.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.191.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.191.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.192.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.192.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.193.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.193.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.194.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.194.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.195.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.195.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.196.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.196.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.197.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.197.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.198.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.198.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.199.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:38 ===
+Error in process <0.199.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.200.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.200.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.201.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.201.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.202.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.202.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.203.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.203.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.204.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.204.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.205.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.205.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.206.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.206.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.207.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.207.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.208.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.208.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.209.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.209.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.210.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.210.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.211.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.211.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.212.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.212.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4>   C-c C-cThe shooter <0.215.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.215.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> The shooter <0.216.0> died with reason {undef,[{roulette,loop,[],[]}]}.4> 
+=ERROR REPORT==== 6-Jun-2017::21:28:39 ===
+Error in process <0.216.0> with exit value:
+{undef,[{roulette,loop,[],[]}]}
+4>  Restarting. 
+4> Creating and monitoring process.
+4> 
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+a
+bash-3.2$ erl.
+bash: erl.: command not found
+bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(roulette).
+{ok,roulette}
+2> Gun = spawn(fun roulette:loop/0).
+<0.62.0>
+3> Gun ! 1.
+click
+1
+4> Gun ! 3.
+bang.
+3
+5> erlang:is_process_alive(Gun).
+false
+6> c(doctor).
+{ok,doctor}
+7> Doc = spawn(fun doctor:loop/0).
+<0.72.0>
+8> Doc ! new.
+Creating and monitoring process.
+new
+9> revolver ! 1.
+click
+1
+10> revolver ! 3.
+bang.
+The shooter <0.74.0> died with reason {roulette,die,at,{21,35,39}}.3
+ Restarting. 
+Creating and monitoring process.
+11> c(doctor_restart).
+{ok,doctor_restart}
+12> DD = spawn(fun doctor_restart:doctor/0).
+<0.84.0>
+13> DD ! new.
+Creating and monitoring process.
+new
+14> 
+=ERROR REPORT==== 6-Jun-2017::21:36:29 ===
+Error in process <0.84.0> with exit value:
+{badarg,[{erlang,register,[revolver,<0.86.0>],[]},
+         {doctor_restart,doctor,0,[{file,"doctor_restart.erl"},{line,9}]}]}
+14> c(doctor_restart).
+{ok,doctor_restart}
+15> F = spawn(fun doctor_restart:doctor/0).
+<0.93.0>
+16> F ! new.
+Creating and monitoring process.
+new
+
+=ERROR REPORT==== 6-Jun-2017::21:38:14 ===
+Error in process <0.93.0> with exit value:
+{badarg,[{erlang,register,[revolver,<0.95.0>],[]},
+         {doctor_restart,doctor,0,[{file,"doctor_restart.erl"},{line,9}]}]}
+17> c(doctor_restart).
+{ok,doctor_restart}
+18> M = spawn(fun doctor_restart:doctor/0).
+<0.102.0>
+19> M ! new.
+Creating and monitoring process.
+new
+20> 
+=ERROR REPORT==== 6-Jun-2017::21:39:03 ===
+Error in process <0.102.0> with exit value:
+{badarg,[{erlang,register,[revolver,<0.104.0>],[]},
+         {doctor_restart,doctor,0,[{file,"doctor_restart.erl"},{line,9}]}]}
+20> f().
+ok
+21> erlang:is_process_alive(M).
+* 1: variable 'M' is unbound
+22> erlang:is_process_alive(revolver).
+** exception error: bad argument
+     in function  is_process_alive/1
+        called as is_process_alive(revolver)
+23> registered().
+[init,global_name_server,standard_error,kernel_safe_sup,
+ erl_prim_loader,file_server_2,erts_code_purger,
+ standard_error_sup,error_logger,user,global_group,
+ code_server,rex,inet_db,revolver,application_controller,
+ kernel_sup]
+24> erlang:is_process_alive(F).
+* 1: variable 'F' is unbound
+25>   C-c C-c
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+a
+bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(roulette).
+{ok,roulette}
+2> c(doctor_restart).
+{ok,doctor_restart}
+3> M = spawn(fun doctor_restart:doctor/0).
+<0.67.0>
+4> M ! new.
+Creating and monitoring process.
+new
+5> revolver ! 1.
+click
+1
+6> revolve ! 3.
+** exception error: bad argument
+     in operator  !/2
+        called as revolve ! 3
+7> revolver ! 3.
+bang.
+The shooter <0.69.0> died with reason {roulette,die,at,{21,43,24}}.3
+ Restarting. 
+Creating and monitoring process.
+8> exit(revolver).
+** exception exit: revolver
+9> exit(M).
+** exception exit: <0.67.0>
+10> erlang:is_process_alive(M).
+true
+11> exit(M).
+** exception exit: <0.67.0>
+12> exit({M}).
+** exception exit: {<0.67.0>}
+13> exit(M).
+** exception exit: <0.67.0>
+14> exit(<0.67.0>).
+* 1: syntax error before: '<'
+14> erlang:exit(M).
+** exception exit: <0.67.0>
+15> f(M).
+ok
+16> erland:is_process_alive(M).
+* 1: variable 'M' is unbound
+17> erland:is_process_alive(<0.67.0>).
+* 1: syntax error before: '<'
+17> erland:is_process_alive('<0.67.0>').
+** exception error: undefined function erland:is_process_alive/1
+18> erlang:is_process_alive(<0.67.0>).
+* 1: syntax error before: '<'
+18> erlang:is_process_alive('<0.67.0>').
+** exception error: bad argument
+     in function  is_process_alive/1
+        called as is_process_alive('<0.67.0>')
+19> erlang:is_process_alive('<0.67.0>').
+** exception error: bad argument
+     in function  is_process_alive/1
+        called as is_process_alive('<0.67.0>')
+20> c(doctor_restart).
+{ok,doctor_restart}
+21> P = spawn(fun doctor_restart:doctor).
+* 1: syntax error before: ')'
+21> P = spawn(fun doctor_restart:doctor/0).
+<0.106.0>
+22> erlang:is_process_alive(P).
+true
+23> P ! new.
+Creating and monitoring process.
+new
+24> 
+=ERROR REPORT==== 6-Jun-2017::21:51:11 ===
+Error in process <0.106.0> with exit value:
+{badarg,[{erlang,register,[revolver,<0.109.0>],[]},
+         {doctor_restart,doctor,0,[{file,"doctor_restart.erl"},{line,9}]}]}
+24> P ! new.  C-c C-c
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+a
+bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(roulette).
+{ok,roulette}
+2> c(doctor_restart).
+{ok,doctor_restart}
+3> P = spawn(fun doctor_restart:doctor/0).
+<0.67.0>
+4> P ! new.
+Creating and monitoring process.
+new
+5> erland:is_process_alive(P).
+** exception error: undefined function erland:is_process_alive/1
+6> erlang:is_process_alive(P).
+true
+7> revolver ! 1.
+click
+1
+8> P ! kill_doc.
+Doctor died!
+kill_doc
+9> revolver ! 1.
+** exception error: bad argument
+     in operator  !/2
+        called as revolver ! 1
+10> c(doctor_restart).
+{ok,doctor_restart}
+11> R = spawn(fun doctor_restart:doctor_sup).
+* 1: syntax error before: ')'
+11> R = spawn(fun doctor_restart:doctor_sup/0).
+<0.84.0>
+12> 
+=ERROR REPORT==== 6-Jun-2017::21:56:12 ===
+Error in process <0.84.0> with exit value:
+{undef,[{doctor_restart,doctor_sup,[],[]}]}
+12> c(doctor_restart).
+doctor_restart.erl:28: function loop/0 undefined
+doctor_restart.erl:23: Warning: function doctor_sup/0 is unused
+error
+13> c(doctor_restart).
+doctor_restart.erl:28: function loop/0 undefined
+doctor_restart.erl:23: Warning: function doctor_sup/0 is unused
+error
+14> c(doctor_restart).
+{ok,doctor_restart}
+15> R = spawn(fun doctor_restart:doctor_sup/0).
+** exception error: no match of right hand side value <0.99.0>
+16> Q = spawn(fun doctor_restart:doctor_sup/0).
+<0.102.0>
+17> Q ! new.
+Creating doctor monitor.
+new
+18> doctor ! new.
+Creating and monitoring process.
+new
+19> revolver ! 1.
+click
+1
+20> doctor ! kill_doc.
+Doctor died!
+The doctor <0.104.0> died with reason {doctor,die,at,{22,0,42}}.kill_doc
+ Restarting. 
+Creating doctor monitor.
+21> revolver ! 1.
+** exception error: bad argument
+     in operator  !/2
+        called as revolver ! 1
+22> Z = spawn(fun doctor_restart:doctor_sup/0).
+<0.113.0>
+23> Z ! new.
+Creating doctor monitor.
+new
+
+=ERROR REPORT==== 6-Jun-2017::22:03:55 ===
+Error in process <0.113.0> with exit value:
+{badarg,[{erlang,register,[doctor,<0.115.0>],[]},
+         {doctor_restart,doctor_sup,0,
+                         [{file,"doctor_restart.erl"},{line,28}]}]}
+24>   C-c C-c
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+a
+bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor_restart).
+{ok,doctor_restart}
+2> c(roulette).
+{ok,roulette}
+3> M = spawn(fun doctor_restart:doctor_sup/0).
+<0.67.0>
+4> M ! new.
+Creating doctor monitor.
+new
+5> doctor ! new.
+Creating and monitoring process.
+new
+6> revolver ! 1.
+click
+1
+7> revolver ! 3.
+bang.
+The shooter <0.71.0> died with reason {roulette,die,at,{22,5,33}}.3
+ Restarting. 
+Creating and monitoring process.
+8> revolver ! 1
+.
+click
+1
+9> doctor ! kill_doc.
+Doctor died!
+The doctor <0.69.0> died with reason {doctor,die,at,{22,5,47}}.kill_doc
+ Restarting. 
+10> 
+=ERROR REPORT==== 6-Jun-2017::22:05:47 ===
+Error in process <0.67.0> with exit value:
+{badarg,[{doctor_restart,doctor_sup,0,
+                         [{file,"doctor_restart.erl"},{line,35}]}]}
+10> c(doctor_dualmon).
+doctor_dualmon.erl:14: syntax error before: 'end'
+doctor_dualmon.erl:2: function doctor/0 undefined
+doctor_dualmon.erl:2: function doctor_sup/0 undefined
+doctor_dualmon.erl:21: function doctor1/0 undefined
+doctor_dualmon.erl:16: Warning: function doctor_mon/0 is unused
+error
+11> c(doctor_dualmon).
+doctor_dualmon.erl:14: syntax error before: 'end'
+doctor_dualmon.erl:2: function doctor/0 undefined
+doctor_dualmon.erl:21: function doctor1/0 undefined
+error
+12> c(doctor_dualmon).
+doctor_dualmon.erl:21: function doctor1/0 undefined
+error
+13> c(doctor_dualmon).
+{ok,doctor_dualmon}
+14> O = spawn(fun doctor_dualmon:doctor_mon/0).
+<0.95.0>
+15> O ! new.
+new
+16> doctor ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor ! say_hello
+17> O ! new_doc.
+Creating doctor monitor.
+new_doc
+18> doctor ! say_hello.
+Hello.
+say_hello
+19> doctor ! kill.
+Doctor died!
+Doc <0.100.0> died with reason {doctor,die,at,{22,40,35}}.kill
+ Restarting. 
+20> O ! kill.
+Doctor_mon died!
+kill
+21> doctor ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor ! say_hello
+22> exit()
+.
+*** Shell process terminated! ***
+Eshell V8.3  (abort with ^G)
+1> q().
+ok
+2> bash-3.2$ ls
+#doctor_dualmon.erl#			monitor_translate.beam
+Creating				monitor_translate.erl
+Restarting.				monitor_translate.erl~
+The					monitor_translation_service.beam
+coroner.erl				monitor_translation_service.erl
+day1and2.erl				monitor_translation_service.erl~
+day3.beam				roulette.beam
+day3.erl				roulette.erl
+day3.erl~				roulette.erl~
+doctor.beam				translate.erl
+doctor.erl				translate2.beam
+doctor.erl~				translate2.erl
+doctor_dualmon.beam			translate2.erl~
+doctor_dualmon.erl			translate_q2_q3.beam
+doctor_dualmon.erl~			translate_q2_q3.erl
+doctor_restart.beam			translate_q2_q3.erl~
+doctor_restart.erl			translate_service.beam
+doctor_restart.erl~			translate_service.erl
+erl_crash.dump				translate_service.erl~
+bash-3.2$ rm *.~
+rm: *.~: No such file or directory
+bash-3.2$ ls
+#doctor_dualmon.erl#			monitor_translate.beam
+Creating				monitor_translate.erl
+Restarting.				monitor_translate.erl~
+The					monitor_translation_service.beam
+coroner.erl				monitor_translation_service.erl
+day1and2.erl				monitor_translation_service.erl~
+day3.beam				roulette.beam
+day3.erl				roulette.erl
+day3.erl~				roulette.erl~
+doctor.beam				translate.erl
+doctor.erl				translate2.beam
+doctor.erl~				translate2.erl
+doctor_dualmon.beam			translate2.erl~
+doctor_dualmon.erl			translate_q2_q3.beam
+doctor_dualmon.erl~			translate_q2_q3.erl
+doctor_restart.beam			translate_q2_q3.erl~
+doctor_restart.erl			translate_service.beam
+doctor_restart.erl~			translate_service.erl
+erl_crash.dump				translate_service.erl~
+bash-3.2$ rm *~
+bash-3.2$ ls
+#doctor_dualmon.erl#			erl_crash.dump
+Creating				monitor_translate.beam
+Restarting.				monitor_translate.erl
+The					monitor_translation_service.beam
+coroner.erl				monitor_translation_service.erl
+day1and2.erl				roulette.beam
+day3.beam				roulette.erl
+day3.erl				translate.erl
+doctor.beam				translate2.beam
+doctor.erl				translate2.erl
+doctor_dualmon.beam			translate_q2_q3.beam
+doctor_dualmon.erl			translate_q2_q3.erl
+doctor_restart.beam			translate_service.beam
+doctor_restart.erl			translate_service.erl
+bash-3.2$ rm *.beam
+bash-3.2$ ls
+#doctor_dualmon.erl#		day3.erl			monitor_translation_service.erl
+Creating			doctor.erl			roulette.erl
+Restarting.			doctor_dualmon.erl		translate.erl
+The				doctor_restart.erl		translate2.erl
+coroner.erl			erl_crash.dump			translate_q2_q3.erl
+day1and2.erl			monitor_translate.erl		translate_service.erl
+bash-3.2$ cat The
+bash-3.2$ cat Creating
+bash-3.2$ cat day3.erl
+-module(day3).
+-export([q1_async/0, q1_sync/0]).
+
+% day 3 question 1 Monitor the translate_service and restart it should it die
+% q1_async() sends and recieves messages in an asyncronous manner
+
+q1_async() ->
+    io:format("Spawning new asynchronous process~n"),
+    Monitor = spawn(fun monitor_translate:loop/0),
+    Monitor ! new,
+    io:format("Sending white~n"),
+    translator ! "white",
+    io:format("Sending casa~n"),    
+    translator ! "casa",
+    io:format("Sending exit~n"),    
+    translator ! "exit",
+    io:format("Sending hello~n"),    
+    translator ! "hello",    
+    io:format("Sending casa~n"),    
+    translator ! "casa".
+
+% q1_sync() sends and receives messages in a synchronouse manner
+
+q1_sync() ->
+    io:format("Spawning new synchronous process~n"),
+    Monitor = spawn(fun monitor_translation_service:loop/0),
+    Monitor ! new,
+    io:format("Sending white~n"),
+    io:format("~p~n", [translate_service:translate(translator, "white")]),
+    io:format("Sending casa~n"),    
+    io:format("~p~n", [translate_service:translate(translator, "casa")]),
+    io:format("Sending exit~n"),    
+    io:format("~p~n", [translate_service:translate(translator, "exit")]),
+    io:format("Sending hello~n"),    
+    io:format("~p~n", [translate_service:translate(translator, "hello")]). % line produces error when called from within function but not if called through the interpreter
+bash-3.2$ ls
+#doctor_dualmon.erl#		day3.erl			monitor_translation_service.erl
+Creating			doctor.erl			roulette.erl
+Restarting.			doctor_dualmon.erl		translate.erl
+The				doctor_restart.erl		translate2.erl
+coroner.erl			erl_crash.dump			translate_q2_q3.erl
+day1and2.erl			monitor_translate.erl		translate_service.erl
+bash-3.2$ rm Creating
+bash-3.2$ rm Restarting. 
+bash-3.2$ rm The
+bash-3.2$ ls
+#doctor_dualmon.erl#		doctor_dualmon.erl		roulette.erl
+coroner.erl			doctor_restart.erl		translate.erl
+day1and2.erl			erl_crash.dump			translate2.erl
+day3.erl			monitor_translate.erl		translate_q2_q3.erl
+doctor.erl			monitor_translation_service.erl	translate_service.erl
+bash-3.2$ ls
+coroner.erl			doctor_restart.erl		translate.erl
+day1and2.erl			erl_crash.dump			translate2.erl
+day3.erl			monitor_translate.erl		translate_q2_q3.erl
+doctor.erl			monitor_translation_service.erl	translate_service.erl
+doctor_dualmon.erl		roulette.erl
+bash-3.2$ ls
+coroner.erl			doctor.erl			erl_crash.dump			roulette.erl			translate_q2_q3.erl
+day1and2.erl			doctor_dualmon.erl		monitor_translate.erl		translate.erl			translate_service.erl
+day3.erl			doctor_restart.erl		monitor_translation_service.erl	translate2.erl
+bash-3.2$ ls
+coroner.erl			doctor.erl			erl_crash.dump			roulette.erl			translate_q2_q3.erl
+day1and2.erl			doctor_dualmon.erl		monitor_translate.erl		translate.erl			translate_service.erl
+day3.erl			doctor_restart.erl		monitor_translation_service.erl	translate2.erl
+bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> ls
+.
+ls
+2>.
+* 1: syntax error before: '.'
+2> c(doctor_dualmon).
+doctor_dualmon.erl:20: syntax error before: '{'
+doctor_dualmon.erl:2: function doctor/0 undefined
+doctor_dualmon.erl:2: function doctor_mon/0 undefined
+doctor_dualmon.erl:32: function doctor/0 undefined
+doctor_dualmon.erl:27: Warning: function doctor2/0 is unused
+error
+3> c(doctor_dualmon).
+doctor_dualmon.erl:2: function doctor/0 undefined
+doctor_dualmon.erl:2: function doctor_mon/0 undefined
+doctor_dualmon.erl:32: function doctor/0 undefined
+doctor_dualmon.erl:4: Warning: function doctor1/0 is unused
+doctor_dualmon.erl:27: Warning: function doctor2/0 is unused
+error
+4> c(doctor_dualmon).
+doctor_dualmon.erl:32: function doctor/0 undefined
+error
+5> c(doctor_dualmon).
+doctor_dualmon.erl:32: function doctor/0 undefined
+error
+6> c(doctor_dualmon).
+{ok,doctor_dualmon}
+7> M = spawn(fun doctor_dualmon:doctor1).
+* 1: syntax error before: ')'
+7> M = spawn(fun doctor_dualmon:doctor1/0).
+<0.81.0>
+8> erlang:is_process_alive(M).
+true
+9> M ! new.
+new
+10> M ! new_doc.
+Creating doc 1.
+new_doc
+11> doctor1 ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor1 ! say_hello
+12> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+13> doctor2 ! kill.
+Doctor_mon died!
+Doc <0.85.0> died with reason {doctor2,die,at,{9,2,3}}.kill
+ Restarting. 
+14> doctor2 ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor2 ! say_hello
+15>   C-c C-c
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+a
+bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor_dualmon).
+{ok,doctor_dualmon}
+2> M = spawn(fun doctor_dualmon:doctor1/0).
+<0.62.0>
+3> M ! new.
+new
+4> doctor1 ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor1 ! say_hello
+5> doctor2 ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor2 ! say_hello
+6> M ! new_doc.
+Creating doc 2.
+new_doc
+7> doctor1 ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor1 ! say_hello
+8> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+9> doctor2 ! new_doc.
+Creating doc 1.
+new_doc
+10> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+11> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+12> doctor1 ! kill.
+Doctor 1 killed themselves!
+Doc <0.74.0> died with reason {doctor1,die,at,{9,7,7}}.kill
+ Restarting. 
+Creating doc 1.
+13> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+14> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+15> doctor1 ! kill.
+Doctor 1 killed themselves!
+Doc <0.79.0> died with reason {doctor1,die,at,{9,7,31}}.kill
+ Restarting. 
+Creating doc 1.
+16> doctor2 ! kill.
+Doctor 2 killed themselves!
+Doc <0.69.0> died with reason {doctor2,die,at,{9,7,36}}.Doc <0.69.0> died with reason {doctor2,die,at,{9,7,36}}.kill
+ Restarting. 
+ Restarting. 
+Creating doc 1.
+Creating doc 1.
+17> 
+=ERROR REPORT==== 7-Jun-2017::09:07:36 ===
+Error in process <0.83.0> with exit value:
+{badarg,[{erlang,register,[doctor1,<0.85.0>],[]},
+         {doctor_dualmon,doctor2,0,[{file,"doctor_dualmon.erl"},{line,32}]}]}
+17> G = spawn(fun doctor_dualmon:doctor1/0).
+<0.87.0>
+18> G ! new.
+new
+19> G ! new_doc.
+Creating doc 2.
+new_doc
+20> doctor2 ! new.
+new
+21> doctor2 ! new_doc.
+Creating doc 1.
+Doc <0.90.0> died with reason {badarg,
+                                  [{erlang,register,[doctor1,<0.93.0>],[]},
+                                   {doctor_dualmon,doctor2,0,
+                                       [{file,"doctor_dualmon.erl"},
+                                        {line,32}]}]}.new_doc
+
+=ERROR REPORT==== 7-Jun-2017::09:08:57 ===
+Error in process <0.90.0> with exit value:
+{badarg,[{erlang,register,[doctor1,<0.93.0>],[]},
+         {doctor_dualmon,doctor2,0,[{file,"doctor_dualmon.erl"},{line,32}]}]}
+ Restarting. 
+Creating doc 1.
+22> 
+=ERROR REPORT==== 7-Jun-2017::09:08:57 ===
+Error in process <0.87.0> with exit value:
+{badarg,[{erlang,register,[doctor1,<0.95.0>],[]},
+         {doctor_dualmon,doctor2,0,[{file,"doctor_dualmon.erl"},{line,32}]}]}
+22> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+23> doctor1 ! kill.
+Doctor 1 killed themselves!
+Doc <0.86.0> died with reason {doctor1,die,at,{9,9,25}}.kill
+ Restarting. 
+Creating doc 1.
+24> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+25> doctor2 ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor2 ! say_hello
+26> doctor ! new_doc.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor ! new_doc
+27> doctor1 ! new_doc.
+Creating doc 2.
+new_doc
+28> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+29> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+30> doctor1 ! kill.
+Doctor 1 killed themselves!
+Doc <0.98.0> died with reason {doctor1,die,at,{9,10,14}}.Doc <0.98.0> died with reason {doctor1,die,at,{9,10,14}}.kill
+ Restarting. 
+ Restarting. 
+Creating doc 1.
+Creating doc 1.
+31> 
+=ERROR REPORT==== 7-Jun-2017::09:10:14 ===
+Error in process <0.62.0> with exit value:
+{badarg,[{erlang,register,[doctor1,<0.110.0>],[]},
+         {doctor_dualmon,doctor2,0,[{file,"doctor_dualmon.erl"},{line,32}]}]}
+31> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+32> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+33> doctor2 ! kill.
+Doctor 2 killed themselves!
+Doc <0.104.0> died with reason {doctor2,die,at,{9,10,42}}.kill
+ Restarting. 
+Creating doc 1.
+34> 
+=ERROR REPORT==== 7-Jun-2017::09:10:42 ===
+Error in process <0.109.0> with exit value:
+{badarg,[{erlang,register,[doctor1,<0.114.0>],[]},
+         {doctor_dualmon,doctor2,0,[{file,"doctor_dualmon.erl"},{line,32}]}]}
+34> doctor2 ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor2 ! say_hello
+35> doctor1 ! day_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor1 ! day_hello
+36> quit().
+** exception error: undefined shell command quit/0
+37> exit().
+*** Shell process terminated! ***
+Eshell V8.3  (abort with ^G)
+1> q().
+ok
+2> bash-3.2$ls
+coroner.erl			doctor_dualmon.erl		roulette.erl
+day1and2.erl			doctor_restart.erl		translate.erl
+day3.erl			erl_crash.dump			translate2.erl
+doctor.erl			monitor_translate.erl		translate_q2_q3.erl
+doctor_dualmon.beam		monitor_translation_service.erl	translate_service.erl
+bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor_dualmon).
+{ok,doctor_dualmon}
+2> M = spawn(fun doctor_dualmon:doctor1/0).
+<0.62.0>
+3> M ! new_doc.
+Creating doc 2.
+new_doc
+4> doctor2 ! new_doc.
+Creating doc 1.
+new_doc
+5> doctor1 ! kill_doc.
+kill_doc
+6> doctor1 ! kill.
+Doctor 1 killed themselves!
+Doc <0.66.0> died with reason {doctor1,die,at,{9,13,46}}.kill
+ Restarting. 
+Creating doc 1.
+7> doctor1 ! kill.
+Doctor 1 killed themselves!
+Doc <0.70.0> died with reason {doctor1,die,at,{9,13,54}}.kill
+ Restarting. 
+Creating doc 1.
+8> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+9> doctor2 ! kill.
+Doctor 2 killed themselves!
+Doc <0.64.0> died with reason {doctor2,die,at,{9,14,8}}.Doc <0.64.0> died with reason {doctor2,die,at,{9,14,8}}.kill
+ Restarting. 
+ Restarting. 
+Creating doc 2.
+Creating doc 2.
+10> 
+=ERROR REPORT==== 7-Jun-2017::09:14:08 ===
+Error in process <0.62.0> with exit value:
+{badarg,[{erlang,register,[doctor2,<0.76.0>],[]},
+         {doctor_dualmon,doctor1,0,[{file,"doctor_dualmon.erl"},{line,9}]}]}
+10> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+11> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+12> doctor2 ! kill.
+Doctor 2 killed themselves!
+Doc <0.75.0> died with reason {doctor2,die,at,{9,14,31}}.kill
+ Restarting. 
+Creating doc 2.
+13> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+14> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+15> doctor1 ! kill.
+Doctor 1 killed themselves!
+Doc <0.72.0> died with reason {doctor1,die,at,{9,15,6}}.kill
+ Restarting. 
+Creating doc 1.
+16> doctor2 ! kill.
+Doctor 2 killed themselves!
+Doc <0.80.0> died with reason {doctor2,die,at,{9,15,12}}.kill
+ Restarting. 
+Creating doc 2.
+17> M ! say_hello.
+say_hello
+18> M ! kill.
+kill
+19> D ! say_hello.
+* 1: variable 'D' is unbound
+20> M ! say_hello.
+say_hello
+21> M ! kill.
+kill
+22>q().
+ok
+23> bash-3.2$ ls
+#doctor_dualmon.erl#		doctor_dualmon.beam		monitor_translation_service.erl
+#write_to_file.erl#		doctor_dualmon.erl		roulette.erl
+coroner.erl			doctor_dualmon.erl~		translate.erl
+day1and2.erl			doctor_restart.erl		translate2.erl
+day3.erl			erl_crash.dump			translate_q2_q3.erl
+doctor.erl			monitor_translate.erl		translate_service.erl
+bash-3.2$ rm *~
+bash-3.2$ rm *.beam
+bash-3.2$ ls
+#doctor_dualmon.erl#		doctor_dualmon.erl		translate.erl
+#write_to_file.erl#		doctor_restart.erl		translate2.erl
+coroner.erl			erl_crash.dump			translate_q2_q3.erl
+day1and2.erl			monitor_translate.erl		translate_service.erl
+day3.erl			monitor_translation_service.erl
+doctor.erl			roulette.erl
+bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor_dualmon).
+doctor_dualmon.erl:51: syntax error before: doctor1
+error
+2> c(doctor_dualmon).
+doctor_dualmon.erl:51: syntax error before: doctor1
+error
+3> c(doctor_dualmon).
+doctor_dualmon.erl:50: Warning: function start/0 is unused
+{ok,doctor_dualmon}
+4> c(doctor_dualmon).
+{ok,doctor_dualmon}
+5> doctor_dualmon:start().
+** exception error: bad argument
+     in function  doctor_dualmon:start/0 (doctor_dualmon.erl, line 54)
+6> doctor_dualmon:doctor1().
+  C-c C-c
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+k
+
+
+Process Information
+
+--------------------------------------------------
+=proc:<0.76.0>
+State: Waiting
+Spawned as: erlang:apply/2
+Spawned by: <0.49.0>
+Started: Wed Jun  7 14:16:38 2017
+Message queue length: 0
+Number of heap fragments: 0
+Heap fragment data: 0
+Link list: [<0.49.0>]
+Reductions: 495
+Stack+heap: 233
+OldHeap: 376
+Heap unused: 217
+OldHeap unused: 138
+Memory: 5656
+Stack dump:
+Program counter: 0x00000001500007e0 (doctor_dualmon:doctor1/0 + 72)
+CP: 0x0000000000000000 (invalid)
+arity = 0
+
+0x000000014c9963c0 Return addr 0x000000014f86c068 (erl_eval:do_apply/6 + 408)
+
+0x000000014c9963c8 Return addr 0x000000014faf0ad8 (shell:exprs/7 + 632)
+y(0)     []
+y(1)     none
+
+0x000000014c9963e0 Return addr 0x000000014faf01f8 (shell:eval_exprs/7 + 128)
+y(0)     []
+y(1)     []
+y(2)     cmd
+y(3)     []
+y(4)     {value,#Fun<shell.5.104321512>}
+y(5)     {eval,#Fun<shell.21.104321512>}
+y(6)     8207
+y(7)     []
+y(8)     []
+y(9)     []
+
+0x000000014c996438 Return addr 0x000000014faefdf0 (shell:eval_loop/3 + 576)
+y(0)     []
+y(1)     []
+y(2)     []
+y(3)     []
+y(4)     <0.49.0>
+y(5)     Catch 0x000000014faf02c8 (shell:eval_exprs/7 + 336)
+
+0x000000014c996470 Return addr 0x000000010ba84be8 (<terminate process normally>)
+y(0)     8207
+y(1)     <0.49.0>
+Internal State: ACT_PRIO_NORMAL | USR_PRIO_NORMAL | PRQ_PRIO_NORMAL | TRAP_EXIT | ON_HEAP_MSGQ
+(k)ill (n)ext (r)eturn:
+k
+=proc:<0.75.0>
+State: Waiting
+Spawned as: erlang:apply/2
+Spawned by: <0.55.0>
+Started: Wed Jun  7 14:16:38 2017
+Message queue length: 1
+Message queue: [new]
+Number of heap fragments: 0
+Heap fragment data: 0
+Reductions: 5
+Stack+heap: 233
+OldHeap: 0
+Heap unused: 223
+OldHeap unused: 0
+Memory: 2688
+Stack dump:
+Program counter: 0x00000001500007e0 (doctor_dualmon:doctor1/0 + 72)
+CP: 0x0000000000000000 (invalid)
+arity = 0
+
+0x000000014c980f40 Return addr 0x000000010ba84be8 (<terminate process normally>)
+Internal State: ACT_PRIO_NORMAL | USR_PRIO_NORMAL | PRQ_PRIO_NORMAL | TRAP_EXIT | ON_HEAP_MSGQ
+(k)ill (n)ext (r)eturn:
+k
+=proc:<0.51.0>
+State: Waiting
+Name: kernel_safe_sup
+Spawned as: proc_lib:init_p/5
+Spawned by: <0.35.0>
+Started: Wed Jun  7 14:14:26 2017
+Message queue length: 0
+Number of heap fragments: 0
+Heap fragment data: 0
+Link list: [<0.35.0>]
+Dictionary: [{'$ancestors',[kernel_sup,<0.34.0>]},{'$initial_call',{supervisor,kernel,1}}]
+Reductions: 56
+Stack+heap: 233
+OldHeap: 0
+Heap unused: 74
+OldHeap unused: 0
+Memory: 2736
+Stack dump:
+Program counter: 0x000000010c60a8a0 (gen_server:loop/6 + 232)
+CP: 0x0000000000000000 (invalid)
+arity = 0
+
+0x000000014c99b0a0 Return addr 0x000000010c6e9dc0 (proc_lib:init_p_do_apply/3 + 56)
+y(0)     []
+y(1)     infinity
+y(2)     supervisor
+y(3)     {state,{local,kernel_safe_sup},one_for_one,[],undefined,4,3600,[],0,kernel,safe}
+y(4)     kernel_safe_sup
+y(5)     <0.35.0>
+
+0x000000014c99b0d8 Return addr 0x000000010ba84be8 (<terminate process normally>)
+y(0)     Catch 0x000000010c6e9de0 (proc_lib:init_p_do_apply/3 + 88)
+Internal State: ACT_PRIO_NORMAL | USR_PRIO_NORMAL | PRQ_PRIO_NORMAL | TRAP_EXIT | ON_HEAP_MSGQ
+(k)ill (n)ext (r)eturn:
+k
+=proc:<0.50.0>
+State: Waiting
+Spawned as: proc_lib:init_p/5
+Spawned by: <0.35.0>
+Started: Wed Jun  7 14:14:26 2017
+Message queue length: 0
+Number of heap fragments: 0
+Heap fragment data: 0
+Link list: [<0.35.0>]
+Dictionary: [{'$ancestors',[kernel_sup,<0.34.0>]},{'$initial_call',{kernel_config,init,1}}]
+Reductions: 268
+Stack+heap: 233
+OldHeap: 0
+Heap unused: 164
+OldHeap unused: 0
+Memory: 2736
+Stack dump:
+Program counter: 0x000000010c60a8a0 (gen_server:loop/6 + 232)
+CP: 0x0000000000000000 (invalid)
+arity = 0
+
+0x000000014c99d120 Return addr 0x000000010c6e9dc0 (proc_lib:init_p_do_apply/3 + 56)
+y(0)     []
+y(1)     infinity
+y(2)     kernel_config
+y(3)     []
+y(4)     <0.50.0>
+y(5)     <0.35.0>
+
+0x000000014c99d158 Return addr 0x000000010ba84be8 (<terminate process normally>)
+y(0)     Catch 0x000000010c6e9de0 (proc_lib:init_p_do_apply/3 + 88)
+Internal State: ACT_PRIO_NORMAL | USR_PRIO_NORMAL | PRQ_PRIO_NORMAL | TRAP_EXIT | ON_HEAP_MSGQ
+(k)ill (n)ext (r)eturn:
+a
+** exception exit: killed
+7> 2017-06-07 14:17:30 std_info            
+    application: kernel
+    exited: shutdown
+    type: permanent
+{"Kernel pid terminated",application_controller,"{application_terminated,kernel,shutdown}"}
+Kernel pid terminated (application_controller) ({application_terminated,kernel,shutdown})
+
+Crash dump is being written to: erl_crash.dump...done
+bash-3.2$erl
+Eshell V8.3  (abort with ^G)
+1> erl
+.
+erl
+2> c(doctor_dualmon).
+{ok,doctor_dualmon}
+3> doctor_dualmon: start().
+** exception error: bad argument
+     in function  doctor_dualmon:start/0 (doctor_dualmon.erl, line 54)
+4> doctor_dualmon: start().
+** exception error: bad argument
+     in function  doctor_dualmon:start/0 (doctor_dualmon.erl, line 54)
+5> c(doctor_dualmon).
+{ok,doctor_dualmon}
+6> doctor_dualmon: start().
+Creating doc 2.
+** exception error: bad argument
+     in function  doctor_dualmon:start/0 (doctor_dualmon.erl, line 54)
+7>M = spawn(fun doctor1/0).
+** exception error: undefined function erl_eval:doctor1/0
+8> M = spawn(fun doctor_dualmon: doctor1/0).
+<0.80.0>
+9> M ! new_doc.
+Creating doc 2.
+new_doc
+10> 
+=ERROR REPORT==== 7-Jun-2017::14:20:44 ===
+Error in process <0.80.0> with exit value:
+{badarg,[{erlang,register,[doctor2,<0.82.0>],[]},
+         {doctor_dualmon,doctor1,0,[{file,"doctor_dualmon.erl"},{line,10}]}]}
+10> doctor1 ! new_doc.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor1 ! new_doc
+11> doctor1 ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor1 ! say_hello
+12> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+13> doctor2 ! new_doc.
+Creating doc 1.
+new_doc
+14> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+15> q().
+ok
+16> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor_dualmon).
+doctor_dualmon.erl:7: syntax error before: '.'
+error
+2>c(doctor_dualmon).
+doctor_dualmon.erl:6: Warning: function super/0 is unused
+{ok,doctor_dualmon}
+3> c(doctor_dualmon).
+{ok,doctor_dualmon}
+4> M
+.
+* 1: syntax error before: '>'
+4> M = spawn(fun super/0).
+** exception error: undefined function erl_eval:super/0
+5> M = spawn(fun doctor_dualmon: super/0).
+<0.74.0>
+6> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+7> Q = [spawn(fun doctor_dualmon:doctor1/0), spawn(fun doctor_dualmon:doctor2/0].
+* 1: syntax error before: ']'
+7>  Q = [spawn(fun doctor_dualmon:doctor1/0), spawn(fun doctor_dualmon:doctor2/0)].
+[<0.79.0>,<0.80.0>]
+8> Q ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as [<0.79.0>,<0.80.0>] ! say_hello
+9> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+10> doctor2 ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor2 ! say_hello
+11> q().
+ok
+12> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor_dualmon).
+{ok,doctor_dualmon}
+2> M = spawn(fun doctor_dualmon: super/0).
+<0.62.0>
+3> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+4> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+5> doctor1 ! die.
+die
+6> doctor1 ! kill.
+Doctor 1 killed themselves!
+kill
+7> doctor2 ! kill.
+Doctor 2 killed themselves!
+kill
+8> q().
+ok
+9> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor_dualmon).
+doctor_dualmon.erl:53: Warning: variable 'Controller' is unused
+{ok,doctor_dualmon}
+2> doctor_dualmon: start().
+** exception error: bad argument
+     in function  doctor_dualmon:start/0 (doctor_dualmon.erl, line 54)
+3> c(doctor_dualmon).
+doctor_dualmon.erl:53: Warning: variable 'Controller' is unused
+{ok,doctor_dualmon}
+4> doctor_dualmon: start().
+** exception error: bad argument
+     in function  doctor_dualmon:start/0 (doctor_dualmon.erl, line 54)
+5>   C-c C-c
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+a
+bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor_dualmon).
+doctor_dualmon.erl:53: Warning: variable 'Controller' is unused
+{ok,doctor_dualmon}
+2> Control = spawn fun doctor_dualmon: doctor1/0).
+* 1: syntax error before: 'fun'
+2> Control = spawn(fun doctor_dualmon: doctor1/0).
+<0.63.0>
+3> doctor2 ! new_doc.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor2 ! new_doc
+4> Controller ! new doc.
+* 1: syntax error before: doc
+4> Control ! new doc.
+* 1: syntax error before: doc
+4> Control ! new_doc.
+Creating doc 2.
+new_doc
+5> q().
+ok
+6> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor_dualmon).
+{ok,doctor_dualmon}
+2> Control = spawn(fun doctor_dualmon: doctor1/0).
+<0.62.0>
+3> doctor1 ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor1 ! say_hello
+4> doctor2 ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor2 ! say_hello
+5> Control ! new_doc.
+Creating doc 2.
+new_doc
+6> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+7> doctor1 ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor1 ! say_hello
+8> q().
+ok
+9> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor_dualmon).
+{ok,doctor_dualmon}
+2> doctor_dualmon: start().
+Creating doc 2.
+** exception error: bad argument
+     in function  doctor_dualmon:start/0 (doctor_dualmon.erl, line 55)
+3> Control = spawn(fun doctor_daulmon: doctor1/0).
+<0.66.0>
+4> 
+=ERROR REPORT==== 7-Jun-2017::18:23:09 ===
+Error in process <0.66.0> with exit value:
+{undef,[{doctor_daulmon,doctor1,[],[]}]}
+4> Control = spawn(fun doctor_dualmon: doctor1/0).
+** exception error: no match of right hand side value <0.68.0>
+5> q().
+ok
+6> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor_dualmon).
+{ok,doctor_dualmon}
+2> Control = spawn(fun doctor_dualmon: doctor1/0).
+<0.62.0>
+3> Control ! new.
+new
+4> Control ! new_doc.
+Creating doc 2.
+new_doc
+5> self().
+<0.55.0>
+6> q().
+ok
+7> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor_dualmon).
+doctor_dualmon.erl:53: Warning: variable 'Control' is unused
+{ok,doctor_dualmon}
+2> doctor_dualmon:start().
+** exception error: bad argument
+     in function  doctor_dualmon:start/0 (doctor_dualmon.erl, line 55)
+3> q().
+ok
+4> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor_dualmon).
+{ok,doctor_dualmon}
+2> doctor_dualmon:start().
+** exception errorq().
+ok
+4> bash-3.2$ q().
+bash: syntax error near unexpected token `.'
+bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(write_to_file).
+write_to_file.erl:3: Warning: function server/0 is unused
+{ok,write_to_file}
+2> c(write_to_file).
+{ok,write_to_file}
+3> M = spawn(fun write_to_file: server/0).
+<0.67.0>
+4> M ! {"Ben", "Hello"}.
+From: "Ben", Message: "Hello"{"Ben","Hello"}
+5>Filename = "testoutput.txt".
+"testoutput.txt"
+6> file:write_file(Filename, "this is test 1").
+ok
+7> file:write_file(Filename, "this is test 2~p").
+ok
+8> file:write_file(Filename, "this is test 3~p").
+ok
+9> file:write_file(Filename, "this is test 4~nXXX").
+ok
+10 
+.
+* 2: syntax error before: '.'
+10> file:write_file(Filename, "this is test 4~nXXX", [append]).
+ok
+11> file:write_file(Filename, "this is test 4~nXXX", [append]).
+ok
+12> file:write_file(Filename, "this is test 4~nXXX", [append]).
+ok
+13> file:write_file(Filename, "this is test 4~nXXX", [append]).
+ok
+14> file:write_file(Filename, "this is test 4~nXXX", [append]).
+ok
+15> file:write_file(Filename, "this is test 4nXXX\n", [append]).
+ok
+16> file:write_file(Filename, "this is test 4nXXX\n", [append]).
+ok
+17> file:write_file(Filename, "this is test 4nXXX\n", [append]).
+ok
+18> c(write_to_file).
+write_to_file.erl:2: function server/0 undefined
+write_to_file.erl:10: variable 'FileName' is unbound
+write_to_file.erl:11: variable 'From' is unbound
+write_to_file.erl:7: Warning: function server/1 is unused
+write_to_file.erl:7: Warning: variable 'Filename' is unused
+error
+19> c(write_to_file).
+write_to_file.erl:10: variable 'FileName' is unbound
+write_to_file.erl:11: variable 'From' is unbound
+write_to_file.erl:7: Warning: variable 'Filename' is unused
+error
+20> error
+20> 
+.
+* 2: syntax error before: 20
+20> c(write_to_file).
+write_to_file.erl:10: variable 'FileName' is unbound
+write_to_file.erl:7: Warning: variable 'Filename' is unused
+error
+21> q().
+ok
+22> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(write_to_file).
+write_to_file.erl:10: variable 'FileName' is unbound
+write_to_file.erl:7: Warning: variable 'Filename' is unused
+error
+2> M = spawn(serve, fun write_to_file: server, ["log.txt"]). 
+* 1: syntax error before: ','
+2> M = spawn(serve, write_to_file: server, ["log.txt"]). 
+* 2: illegal expression
+3> M = spawn(serve, write_to_file:server, ["log.txt"]). 
+* 2: illegal expression
+4> q().
+ok
+5> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(write_to_file).
+write_to_file.erl:10: variable 'FileName' is unbound
+write_to_file.erl:7: Warning: variable 'Filename' is unused
+error
+2> c(write_to_file).
+write_to_file.erl:11: syntax error before: '.'
+write_to_file.erl:12: syntax error before: ':'
+write_to_file.erl:2: function server/1 undefined
+error
+3> c(write_to_file).
+write_to_file.erl:13: variable 'FileName' is unbound
+error
+4>c(write_to_file).
+{ok,write_to_file}
+5> M = spawn(serve, write_to_file:server, ["log.txt"]). 
+* 1: illegal expression
+6> M = spawn(serve, fun write_to_file:server, ["log.txt"]). 
+* 2: syntax error before: ','
+6> M = spawn(serve, fun write_to_file:server("log.txt")). 
+* 2: syntax error before: '('
+6> M = spawn(fun write_to_file:server("log.txt")). 
+* 2: syntax error before: '('
+6> M = spawn(fun write_to_file:server/1, ["log.txt"]). 
+** exception error: bad argument
+     in function  spawn/2
+        called as spawn(#Fun<write_to_file.server.1>,["log.txt"])
+7> M = spawn(test, write_to_file:server, ["log.txt"]). 
+* 2: illegal expression
+8> M = spawn(write_to_file:server, ["log.txt"]). 
+* 2: illegal expression
+9> M = spawn(write_to_file:server/1, ["log.txt"]). 
+* 2: illegal expression
+10> M = spawn(fun write_to_file:server/1, ["log.txt"]). 
+** exception error: bad argument
+     in function  spawn/2
+        called as spawn(#Fun<write_to_file.server.1>,["log.txt"])
+11> M = spawn(fun write_to_file:server, ["log.txt"]). 
+* 2: syntax error before: ','
+11> M = spawn(mod, write_to_file:server, ["log.txt"]). 
+* 2: illegal expression
+12> QQ = spawn(mod, write_to_file:server, ["log.txt"]). 
+* 2: illegal expression
+13> QQ = spawn(write_to_file, server, ["log.txt"]). 
+<0.88.0>
+14> QQ ! hello.
+hello
+15> QQ ! "how are you"
+.
+"how are you"
+16> QQ ! "another messaage"
+.
+"another messaage"
+17> Q = spawn(write_to_file, server, ["log.txt"]). 
+<0.94.0>
+18> Q ! {"Hello there"}.
+{"Hello there"}
+19> Q ! {"How are you"}.
+{"How are you"}
+20> erlang:is_process_alive(Q).
+false
+21> Q = spawn(fun write_to_file:server/0).
+** exception error: no match of right hand side value <0.100.0>
+22> 
+=ERROR REPORT==== 7-Jun-2017::22:31:47 ===
+Error in process <0.100.0> with exit value:
+{undef,[{write_to_file,server,[],[]}]}
+22> TT = spawn(fun write_to_file:server/0).
+<0.103.0>
+
+=ERROR REPORT==== 7-Jun-2017::22:32:00 ===
+Error in process <0.103.0> with exit value:
+{undef,[{write_to_file,server,[],[]}]}
+23> q().
+ok
+24> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(write_to_file).
+{ok,write_to_file}
+2> TT = spawn(fun write_to_file:server/0).
+<0.62.0>
+3> TT ! "Hi".
+"Hi"
+4> TT ! "How are you".
+"How are you"
+5> TT ! {"Not bad"}.
+{"Not bad"}
+6> q().
+ok
+7> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(write_to_file).
+{ok,write_to_file}
+2> TT = spawn(fun write_to_file:server/0).
+<0.62.0>
+3> T ! {"Hello"}.
+* 1: variable 'T' is unbound
+4> TT ! {"Hello"}.
+{"Hello"}
+5> q().
+ok
+6> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(write_to_file).
+write_to_file.erl:12: Warning: wrong number of arguments in format call
+{ok,write_to_file}
+2> c(write_to_file).
+{ok,write_to_file}
+3> M = spawn(fun write_to_file:server/0).
+<0.67.0>
+4> M ! {"hello"}.
+Message is "hello"{"hello"}
+5> q().
+ok
+6> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(write_to_file).
+{ok,write_to_file}
+2> M = spawn(fun write_to_file:server/0).
+<0.62.0>
+3> M ! {"Hello"}.
+Message is "Hello"{"Hello"}
+4> c(write_to_file).
+{ok,write_to_file}
+5> M = spawn(fun write_to_file:server/0).
+** exception error: no match of right hand side value <0.71.0>
+6> K = spawn(fun write_to_file:server/0).
+<0.74.0>
+7> K ! {"Message to you"}.
+Message is "Message to you" @ {22,47,29}{"Message to you"}
+8> K ! {"Message to you again"}.
+{"Message to you again"}
+9> K ! {"Here is my message"}.
+{"Here is my message"}
+10> c(write_to_file).
+{ok,write_to_file}
+11> IO = spawn(fun write_to_file:server/0).
+<0.84.0>
+12> IO ! {"Message 1"}
+.
+Message: "Message 1"{"Message 1"}
+13> IO ! {"Message 2"}.
+{"Message 2"}
+14> c(write_to_file).
+{ok,write_to_file}
+15> O = spawn(fun write_to_file:server/0).
+<0.93.0>
+16> O ! {"M"}.
+Message: "M"{"M"}
+17> O ! {"Mess"}.
+Message: "Mess"{"Mess"}
+18> O ! {"And more"}.
+{"And more"}
+Message: "And more"19> 
+.
+* 2: syntax error before: '.'
+19> c(write_to_file).
+{ok,write_to_file}
+20> OL = spawn(fun write_to_file:server/0).
+<0.104.0>
+21> Ol ! {"MM"}.
+* 1: variable 'Ol' is unbound
+22> OL ! {"MM"}.
+{"MM"}
+23> 
+=ERROR REPORT==== 7-Jun-2017::22:55:51 ===
+Error in process <0.104.0> with exit value:
+{function_clause,[{io,request,
+                      ["Message: ~p",{format,["MM"],[append]}],
+                      [{file,"io.erl"},{line,556}]},
+                  {io,o_request,3,[{file,"io.erl"},{line,63}]},
+                  {write_to_file,server,0,
+                                 [{file,"write_to_file.erl"},{line,12}]}]}
+23> c(write_to_file).
+{ok,write_to_file}
+24> L = spawn(fun write_to_file:server/0).
+<0.113.0>
+25> L ! {"Hi there"}.
+Message: "Hi there"{"Hi there"}
+26> L ! {"How are you"}.
+{"How are you"}
+Message: "How are you"27> L ! {"I am well"}.
+Message: "I am well"{"I am well"}
+28> c(otp_server).
+otp_server.erl:6: head mismatch
+otp_server.erl:8: syntax error before: '->'
+otp_server.erl:11: syntax error before: '->'
+otp_server.erl:2: function behaviour_info/1 undefined
+otp_server.erl:14: Warning: function init/1 is unused
+otp_server.erl:17: Warning: function handle_call/1 is unused
+otp_server.erl:17: Warning: variable 'MyMessage' is unused
+error
+29> q().
+ok
+30> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(otp_server).
+otp_server.erl:4: function handle_call/0 undefined
+otp_server.erl:4: function init/0 undefined
+otp_server.erl:11: variable 'Message' is unbound
+otp_server.erl:11: variable 'Pid' is unbound
+otp_server.erl:2: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function init/1 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+otp_server.erl:13: Warning: function init/1 is unused
+otp_server.erl:16: Warning: function handle_call/1 is unused
+error
+2> c(otp_server).
+otp_server.erl:4: function init/0 undefined
+otp_server.erl:11: variable 'Message' is unbound
+otp_server.erl:11: variable 'Pid' is unbound
+otp_server.erl:2: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function init/1 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+otp_server.erl:13: Warning: function init/1 is unused
+error
+3> c(otp_server).
+otp_server.erl:11: variable 'Message' is unbound
+otp_server.erl:11: variable 'Pid' is unbound
+otp_server.erl:2: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+error
+4> q().
+ok
+5> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(otp_server).
+otp_server.erl:18: function channels/0 undefined
+otp_server.erl:21: function alloc/1 undefined
+otp_server.erl:25: function free/2 undefined
+otp_server.erl:2: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+error
+2> man gen_server
+.
+* 1: syntax error before: gen_server
+2> q().
+ok
+3> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(otp_server).
+{ok,otp_server}
+2> c(otp_server).
+otp_server.erl:4: function order_cat/4 undefined
+otp_server.erl:5: function code_change/3 undefined
+otp_server.erl:5: function handle_call/3 undefined
+otp_server.erl:5: function handle_cast/2 undefined
+otp_server.erl:5: function handle_info/2 undefined
+otp_server.erl:5: function terminate/2 undefined
+otp_server.erl:8: Warning: record cat is unused
+otp_server.erl:15: Warning: function send_message/2 is unused
+otp_server.erl:29: Warning: function handle_call/2 is unused
+otp_server.erl:29: Warning: variable 'Message' is unused
+otp_server.erl:29: Warning: variable 'Pid' is unused
+error
+3>c(otp_server).
+otp_server.erl:2: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+otp_server.erl:7: Warning: record cat is unused
+otp_server.erl:28: Warning: variable 'Message' is unused
+otp_server.erl:28: Warning: variable 'Pid' is unused
+{ok,otp_server}
+4> c(otp_server).
+otp_server.erl:2: Warning: undefined callback function code_change/3 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_call/3 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_cast/2 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function handle_info/2 (behaviour 'gen_server')
+otp_server.erl:2: Warning: undefined callback function terminate/2 (behaviour 'gen_server')
+otp_server.erl:26: Warning: variable 'Message' is unused
+otp_server.erl:26: Warning: variable 'Pid' is unused
+{ok,otp_server}
+5> q().
+ok
+6> bash-3.2$ erl
+Eshell V8.3  (abort with ^G)
+1> c(doctor_dualmon).
+doctor_dualmon.erl:55: function ospawn/1 undefined
+error
+2> c(doctor_dualmon).
+{ok,doctor_dualmon}
+3>M = spawn(fun doctor_dualmon/0).
+** exception error: undefined function erl_eval:doctor_dualmon/0
+4> M = spawn(fun doctor_dualmon:doctor1/0).
+<0.68.0>
+5> M ! new.
+new
+6> M ! new_doc.
+Creating doc 2.
+new_doc
+7> doctor1 ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor1 ! say_hello
+8> doctor2 ! new_doc.
+Creating doc 1.
+new_doc
+9> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+10> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+11> doctor2 ! kill.
+Doctor 2 killed themselves!
+Doc <0.71.0> died with reason {doctor2,die,at,{12,34,21}}.Doc <0.71.0> died with reason {doctor2,die,at,{12,34,21}}.kill
+ Restarting. 
+ Restarting. 
+Creating doc 2.
+Creating doc 2.
+12> 
+=ERROR REPORT==== 8-Jun-2017::12:34:21 ===
+Error in process <0.68.0> with exit value:
+{badarg,[{erlang,register,[doctor2,<0.81.0>],[]},
+         {doctor_dualmon,doctor1,0,[{file,"doctor_dualmon.erl"},{line,11}]}]}
+12> doctor ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor ! say_hello
+13> q().
+ok
+14> bash-erl
+Eshell V8.3  (abort with ^G)
+1> M = spawn(fun doctor_dualmon:doctor1/0).
+<0.57.0>
+2> M ! new.
+new
+3> M ! new_doc.
+Creating doc 2.
+new_doc
+4> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+5> doctor1 ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor1 ! say_hello
+6> doctor2 ! new_doc.
+Creating doc 1.
+new_doc
+7> doctor ! say_hello.
+** exception error: bad argument
+     in operator  !/2
+        called as doctor ! say_hello
+8> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+9> doctor1 ! kill.
+Doctor 1 killed themselves!
+Doc <0.65.0> died with reason {doctor1,die,at,{12,35,59}}.kill
+ Restarting. 
+Creating doc 1.
+10> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+11> doctor2 ! kill.
+Doctor 2 killed themselves!
+Doc <0.60.0> died with reason {doctor2,die,at,{12,36,45}}.Doc <0.60.0> died with reason {doctor2,die,at,{12,36,45}}.kill
+ Restarting. 
+ Restarting. 
+Creating doc 2.
+Creating doc 2.
+12> 
+=ERROR REPORT==== 8-Jun-2017::12:36:45 ===
+Error in process <0.57.0> with exit value:
+{badarg,[{erlang,register,[doctor2,<0.75.0>],[]},
+         {doctor_dualmon,doctor1,0,[{file,"doctor_dualmon.erl"},{line,11}]}]}
+12> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+13doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+14> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+15> doctor1 ! kill.
+Doctor 1 killed themselves!
+Doc <0.71.0> died with reason {doctor1,die,at,{12,37,45}}.kill
+ Restarting. 
+Creating doc 1.
+16> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+17> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+18> doctor2 ! kill.
+Doctor 2 killed themselves!
+Doc <0.74.0> died with reason {doctor2,die,at,{12,38,8}}.kill
+ Restarting. 
+Creating doc 2.
+19> doctor1 ! say_hello.
+Doc 1 says hello.
+say_hello
+20> doctor2 ! say_hello.
+Doc 2 says hello.
+say_hello
+21> erlang:is_process_alive(M).
+false
+22> erlang:is_process_alive(doctor2).
+** exception error: bad argument
+     in function  is_process_alive/1
+        called as is_process_alive(doctor2)
+23> registered().
+[rex,erts_code_purger,init,error_logger,kernel_sup,doctor1,
+ global_name_server,global_group,file_server_2,code_server,
+ application_controller,user,standard_error_sup,
+ standard_error,erl_prim_loader,kernel_safe_sup,doctor2,
+ inet_db]
+24> Q = spawn(fun doctor_dualmon:doctor1/0).
+<0.91.0>
+25> registered().
+[rex,erts_code_purger,init,error_logger,kernel_sup,doctor1,
+ global_name_server,global_group,file_server_2,code_server,
+ application_controller,user,standard_error_sup,
+ standard_error,erl_prim_loader,kernel_safe_sup,doctor2,
+ inet_db]
+26> register(x, Q).
+true
+27> registered()
+.
+[rex,erts_code_purger,init,error_logger,kernel_sup,doctor1,
+ global_name_server,global_group,file_server_2,code_server,
+ application_controller,user,standard_error_sup,
+ standard_error,x,erl_prim_loader,kernel_safe_sup,doctor2,
+ inet_db]
+28> exit({x, die, at, erlang:time()}).
+** exception exit: {x,die,at,{12,44,57}}
+29> registered().
+[rex,erts_code_purger,init,error_logger,kernel_sup,doctor1,
+ global_name_server,global_group,file_server_2,code_server,
+ application_controller,user,standard_error_sup,
+ standard_error,x,erl_prim_loader,kernel_safe_sup,doctor2,
+ inet_db]
+30> erlang:is_process_alive(Q).
+true
+31> exit(Q).
+** exception exit: <0.91.0>
+32> erlang:is_process_alive(Q).
+true
+33> exit({X,die}).
+* 1: variable 'X' is unbound
+34> exit({Q,die}).
+** exception exit: {<0.91.0>,die}
+35> exit({,die}).
+* 1: syntax error before: ','
+35> exit({x,die}).
+** exception exit: {x,die}
+36> exit({x,die, at, erlang:time()}).
+** exception exit: {x,die,at,{12,46,15}}
+37> exit(Q, kill).
+true
+38> erlang:is_process_alive(Q).
+false
+39> registered().
+[rex,erts_code_purger,init,error_logger,kernel_sup,doctor1,
+ global_name_server,global_group,file_server_2,code_server,
+ application_controller,user,standard_error_sup,
+ standard_error,erl_prim_loader,kernel_safe_sup,doctor2,
+ inet_db]
+40> q().
+ok
+41> bash-3.2$ ls
+#*shell*#			doctor.erl			roulette.erl
+#doctor_dualmon.erl#		doctor_dualmon.beam		translate.erl
+#otp_server.erl#		doctor_dualmon.erl		translate2.erl
+#translate_service.erl#		doctor_restart.erl		translate_q2_q3.erl
+#write_to_file.erl#		erl_crash.dump			translate_service.erl
+*shell*				monitor_translate.erl		write_to_file.beam
+*shell*~			monitor_translation_service.erl	write_to_file.erl
+coroner.erl			otp_server.beam			write_to_file.erl~
+day1and2.erl			otp_server.erl
+day3.erl			otp_server.erl~
+bash-3.2$ rm *|
+>   C-c C-c
+bash-3.2$ m *~
+bash: m: command not found
+bash-3.2$ rm *~
