@@ -24,6 +24,13 @@
 
 (unless true (println "this is true") (println "this is false"))
 
+(defmacro unless2 [test1 test2 test2true test2false test1false]
+  (list 'if (list 'not test1) (list 'if (list 'not test2) test2true test2false) test1false))
+
+(unless2 false true (println "test1 not true; test2 not true") (println "test1 not true; test2 not false") (println "test1 not false"))
+
+;; (if false (if true (println "inner true") (println "inner false")) (println "outer false"))
+
 ;; Question 2 - Practicing
 
 (println "Practing for Day2: Question 2")
