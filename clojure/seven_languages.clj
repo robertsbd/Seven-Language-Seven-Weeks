@@ -1,5 +1,5 @@
 ;;;;;;;;;;;;;;;;;;;;;
-;; Day 2 questions ;;
+;; Day 1 questions ;;
 ;;;;;;;;;;;;;;;;;;;;;
 
 ;; Question 1
@@ -64,3 +64,4 @@
 
 (println (add-together (map->TwoStrings {:a "String1" :b "String2"})))
 (println (add-together (map->TwoNums {:a 1 :b 2})))
+
